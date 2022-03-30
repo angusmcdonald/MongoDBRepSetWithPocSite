@@ -75,3 +75,7 @@ response should conatin our mock data
 { "_id" : ObjectId("62426170282f26d2d1a617f9"), "item" : "paper", "instock" : [ { "warehouse" : "A", "qty" : 60 }, { "warehouse" : "B", "qty" : 15 } ] }
 { "_id" : ObjectId("62426170282f26d2d1a617fa"), "item" : "planner", "instock" : [ { "warehouse" : "A", "qty" : 40 }, { "warehouse" : "B", "qty" : 5 } ] }
 { "_id" : ObjectId("62426170282f26d2d1a617f8"), "item" : "journal", "instock" : [ { "warehouse" : "A", "qty" : 5 }, { "warehouse" : "C", "qty" : 15 } ] }`
+
+### For external testings
+Set host files so your local PC can refer to the Docker VMS by their internal IPS 
+127.0.0.1 localmongo1 localmongo2 localmongo3 localmongo4 localmongo5 localmongo6
